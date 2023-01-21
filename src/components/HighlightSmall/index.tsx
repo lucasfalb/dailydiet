@@ -14,11 +14,11 @@ type Props = TouchableOpacityProps & {
   subTitle?: string;
   type?: ContainerDefaultStyleProps;
 };
-export function Highlight({
+export function HighlightSmall({
   title,
   subTitle = "das refeições dentro da dieta",
   type = "GREEN",
-  icon = 'call-made',
+  icon,
   showRouterIcon = false,
   ...rest
 }: Props) {

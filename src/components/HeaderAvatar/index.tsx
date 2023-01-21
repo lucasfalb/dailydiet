@@ -1,7 +1,7 @@
 import { Container, Logo, Avatar,AvatarImage } from "./styles";
 import logoImg from "@assets/logo.png";
 import avatar from "@assets/avatar.png";
-export function Header(){
+export function HeaderAvatar(){
     return (
         <Container>
             <Logo source={logoImg} />
